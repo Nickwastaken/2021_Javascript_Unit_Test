@@ -62,14 +62,14 @@
 
 					<h3>Task 1 - The Image</h3>
 					<img src="assets/img/nft.jpg" id="imageTask1" onclick="buttonTask1()"><br />
-					<button style="display: none" onmouseover="imageTask1()" id="buttonTask1">Click Me</button>
+					<button style="display: block" onmouseover="imageTask1()" id="buttonTask1">Click Me</button>
 					<hr>
 										
 					<h3>Task 2 - The Table</h3>
 					<!-- Buttons for this task should be entered before the table tag. -->
 
-					<button>Red</button><button>Blue</button><button>Green</button>
-					<table class="table table-striped">
+					<input type="button" value="Red" onclick="myFunction(this)" id="redButton" /><input type="button" value="Green" onclick="myFunction(this)" id="greenButton" /><input type="button" value="Blue" onclick="myFunction(this)" id="blueButton" />
+					<table class="table table-striped" id="myTable">
 						<thead>
 							<tr>
 								<th>#</th>
